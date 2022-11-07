@@ -109,6 +109,7 @@ a {
 p {
         margin: 0px;
         line-height: 2rem;
+        font-size: 1.2rem;
 }
 main p {
         color: #717982;
@@ -328,6 +329,28 @@ img {
 #home > .wrapper:last-child {
         padding: 150px 0px;
 }
+#home p:last-child {
+        display: inline-block;
+        position: relative;
+        top: 0;
+        left: 0;
+}
+#home p:last-child:before, #home p:last-child:after {
+        content: '';
+        width: 10px;
+        height: 2px;
+        background-color: #1EA78D;
+        display: block;
+        position: absolute;
+        top: 15px;
+        
+}
+#home p:last-child:before {
+        left: -12px;
+}
+#home p:last-child:after {
+        right: -12px;
+}
 #features {
         background-color: #F4F7F9;
         text-align: left;
@@ -341,8 +364,18 @@ img {
 }
 #work p {
         font-weight: 700;
-        font-size: 16px;
+        font-size: 1.25rem
 }
+@media screen and (min-width:768px) {
+
+}
+
+@media screen and (min-width:1024px){
+        #work p {
+                font-size: 1rem;
+        }
+}
+/*--
 /*--------------------------------------------------------------
     7.0 - UTILITY
 -------------------------------------------------------------- */
