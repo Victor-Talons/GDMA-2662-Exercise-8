@@ -73,7 +73,7 @@ html {
 
 /* ----- TYPOGRAPHY ----- */ 
 h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         text-align: center;
         color: #FFF;
         font-weight: 400;
@@ -91,7 +91,7 @@ h3 {
         font-size: 1.5rem;
 }
 nav {
-        text-align: right;
+        text-align: center;
 }
 ul {
         display: inline-block;
@@ -108,7 +108,7 @@ a {
 }
 p {
         margin: 0px;
-        line-height: 1.5rem;
+        line-height: 2rem;
 }
 main p {
         color: #717982;
@@ -133,7 +133,15 @@ footer ul {
 }
 
 @media screen and (min-width:1024px){
-
+        h1 {
+                font-size: 4rem;
+        }
+        nav {
+                text-align: right;
+        }
+        p {
+                line-height: 1.5rem;
+        }
 }
 /*--------------------------------------------------------------
     5.0 - OBJECTS
@@ -200,6 +208,7 @@ footer ul {
         [class*='col-'] {
                 padding: 10px;
         }
+       
        
 
         .col-md-1 {
@@ -329,6 +338,10 @@ img {
 }
 #work {
         padding: 70px 0px 150px 0px;
+}
+#work p {
+        font-weight: 700;
+        font-size: 16px;
 }
 /*--------------------------------------------------------------
     7.0 - UTILITY
