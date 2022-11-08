@@ -13,12 +13,12 @@
 </head>
 
     <header id="home"> <!-- bg color -->
-        <div> <!-- bg color & fixed -->
+        <div class="pos-fixed col-sm-12"> <!-- bg color & fixed -->
             <div class="wrapper row">
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <img src="img/logo-brandi.png" alt="Brandi">
+                    <img src="img/logo-brandi@2x.jpg" alt="Brandi">
                 </div>
-                <nav class="col-sm-12 col-md-6 col-lg-6">
+                <nav class="col-sm-12 col-md-6">
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#features">Features</a></li>
@@ -30,30 +30,30 @@
         </div>
         <div class="wrapper">
             <h1>Meet <b>Responsive</b>!</h1> <!-- Escape char -->
-            <p><span>/fancy</span> ways to resize content</p> <!-- Escape char -->
+            <p><span>&#47;fancy</span> ways to resize content</p> <!-- Escape char -->
             <p>Welcome to the future</p> <!-- Before and After???????? -->
         </div>
     </header>
     <main>
         <div id="features">
             <section class="wrapper">
-                <header class="col-sm-12 col-md-12 col-lg-12"><!-- text aling center -->
+                <header><!-- text aling center -->
                     <h2>Features</h2> <!-- Border bottom padding to seperate. display inline -->
                 </header>
                 <div class="row">
-                    <section class="col-sm-12 col-md-4 col-lg-4">
+                    <section class="col-sm-12 col-md-4">
                         <header>
                             <h3>Fluid Layout</h3>
                             <p>In a fluid layout, the page area and its grid resize proportionally to fill the available width of the screen or window. That is easily accomplished with percentages! You can also rely on flex, without a width, or in the future CSS Grid when it's more widely supported. </p>
                         </header>
                     </section>
-                    <section class="col-sm-12 col-md-4 col-lg-4">
+                    <section class="col-sm-12 col-md-4">
                         <header>
                             <h3>Flexible Images</h3>
                             <p>Every now and then a solutio is simple. Take, for example, the styles required to make images scal to fit the size of their container: max-width: 100%. That's it! </p> <!-- Escape char -->
                         </header>
                     </section>
-                    <section class="col-sm-12 col-md-4 col-lg-4">
+                    <section class="col-sm-12 col-md-4">
                         <header>
                             <h3>Media Queries</h3>
                             <p>Media queries apply different styles based on characteristics of the browser: its width, whether it is vertically or horizontally oriented, its resolution, and more. They are what make it possible to send a one-column layout to small screens and a multicolumn layout to larger screens on the fly.</p>
@@ -78,14 +78,16 @@
 
     <footer id="contact"> <!-- bg color & border top -->
         <div class="wrapper row">
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <img src="img/logo-brandi.png" alt="Brandi">
+            <div class="col-sm-12 col-md-4">
+                <img src="img/logo-brandi@2x.jpg" alt="Brandi">
                 <p>Mobile-first is when we start by writing our CSS for mobile devices and then use media queries to add in styling for larger screen sizes. When we style for desktop, we're adding widths, columns, and moving things around. We're adding complexity. Mobile layouts tend to be very simple, making it very easy to start there.</p>
-                <ul>
-                    <li>hello@email.com</li>
-                    <li>•</li>
-                    <li>800.123.4567</li>
-                </ul>
+                <address>
+                    <ul>
+                        <li><a href="mailto:hello@email.com">hello@email.com</a></li>
+                        <li>&dot;</li>
+                        <li><a href="tel:800.123.4567">800.123.4567</a></li>
+                    </ul>
+                </address>
             </div>
         </div>
     </footer>
@@ -93,7 +95,6 @@
 
 
 
-<body>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
